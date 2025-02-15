@@ -6,7 +6,6 @@
 
     .menu-hamburguer {
         display: flex; /* Exibe o ícone do hambúrguer */
-        margin-right: 60px;
     }
 
     .menu-mobile {
