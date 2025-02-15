@@ -1,0 +1,24 @@
+/* Media Query para tornar o menu responsivo */
+@media (max-width: 600px) {
+    .menu {
+        display: none; /* Esconde o menu padrão */
+    }
+
+    .menu-hamburguer {
+        display: flex; /* Exibe o ícone do hambúrguer */
+        margin-right: 60px;
+    }
+
+    .menu-mobile {
+        display: none; /* Esconde o menu móvel por padrão */
+    }
+
+    .menu-mobile.active {
+        display: flex; /* Exibe o menu móvel quando ativo */
+    }
+    
+    .hero h2 {
+        font-size: 28px;  /* Ajuste o tamanho para telas menores */
+    }
+    
+}
